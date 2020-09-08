@@ -1,0 +1,45 @@
+---- Credentials ----
+Collaborators: Jordan Holland, Egor Maksimennka, Kennedy Ganda, Sambath Pech, Faiz Ahmned
+Class: TCSS 360 Software Development Quality Assurance
+Assignment: PRJ#02
+Purpose: This project is the second installment of a 3 part series, where the collaborators
+		 had to select 5 out of 8 java implementations of the Wireless Vantage Pro2 weather station.
+		 and then integrate them into a GUI console application that resembles the Wireless
+		 Vantage Pro2 Console Receiver.
+		 
+---- Configuration Screen ----
+This screen allows the user to select quantity of each weather station they would like to be
+incorporated into the application by clicking on the dropdown boxes located next to each
+weather station type.
+
+A user must select at least 1 and at most 8 weather stations to be created and connected to
+the console application.
+
+---- Console Screen ----
+This screen shows the user the data statistics of one of the selected weather stations at a time.
+
+Components:
+- Title Bar (top section): Indicates the current weather station being displayed along with it's ID number.
+- Compass (top left corner): Displays the current wind speed and direction.
+- Graph (bottom left corner): Displays the last 24 data entries of a selected data sensor.
+- Statistics (middle section): Displays the current reading of a weather station's data sensors. (0.0 means no reading).
+- Buttons (right section): Displays what data can be displayed on the graph.
+
+---- Functionality ----
+By clicking one of the functional buttons, the user is able to change the data that is being plotted
+onto the graph on the console screen.
+
+To change the weather station that is being displayed:
+1. Press 2nd
+2. Press 2nd
+(the next weather station will be displayed)
+
+List of functional buttons:
+- TEMP/HEAT
+- 2nd/LAMPS
+- HUM/DEW
+- WIND/CHILL
+- RAINday/SOLAR
+- BAR/ET
+- DONE
+(only the first portion of each button is operational)
